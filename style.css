@@ -6,7 +6,7 @@
 body {
   margin: 0 auto;
   padding: 3px;
-  background-color: #fff;
+  background-color: #b9ceff;
 }
 
 .game-container {
@@ -40,6 +40,8 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 19px;
+  border-radius: 20px;
+  box-shadow: #8886 10px 10px 20px;
 }
 
 .guessing-area {
@@ -87,7 +89,8 @@ header {
 }
 
 .human-guess {
-  border: 1px solid #979797;
+  border: 5px solid #979797;
+  background-color: #ececec;
 }
 
 .guess input {
@@ -140,6 +143,7 @@ header {
   background-color: #4c7ef3;
   color: #fff;
   cursor: pointer;
+  border-radius: 30px;
 }
 
 #guess {
@@ -149,6 +153,11 @@ header {
   border: none;
   font-weight: 700;
   font-size: 14px;
+}
+
+#guess:hover {
+  font-size: 15px;
+  background-color: #1d5cee;
 }
 
 input[type=number]::-webkit-inner-spin-button {
@@ -175,7 +184,8 @@ input[type=number]::-webkit-inner-spin-button {
   background-color: #ececec;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 5%;
 }
 
 .instruction {
